@@ -1,0 +1,231 @@
+ *******************************************************************************
+ ** [MOPAC] Ver.6 by James J. P. Stewart                                      **
+ *******************************************************************************
+ ** PDDG modification by W. L. Jorgensen et al.(Yale Univ.)                   **
+ ** Additional modification by N. Senda(Tencube) and W. Sasaki(pc-chem.info)  **
+ *******************************************************************************
+
+                                 AM1 CALCULATION RESULTS
+
+
+ *******************************************************************************
+ *          MOPAC:  VERSION  6.06               CALC'D. 04-Nov-20               
+ *
+ *
+ *
+ *                 CHARGE ON SYSTEM = -1
+ *
+ *
+ *
+ *   T=      - A TIME OF  3600.0 SECONDS REQUESTED
+ *  DUMP=N   - RESTART FILE WRITTEN EVERY  3600.0 SECONDS
+ *  EF       - USE EF ROUTINE FOR MINIMUM SEARCH
+ *  AM1      - THE AM1 HAMILTONIAN TO BE USED
+ ***********************************************************************080BY100
+ AM1 EF CHARGE=-1
+ Title
+ 
+
+    ATOM   CHEMICAL  BOND LENGTH    BOND ANGLE     TWIST ANGLE
+   NUMBER  SYMBOL    (ANGSTROMS)     (DEGREES)      (DEGREES)
+    (I)                  NA:I          NB:NA:I      NC:NB:NA:I     NA   NB   NC
+
+      1      C       
+      2     Cl         5.21568  *                                  1
+      3      H         1.11302  *      70.21024  *                 1    2
+      4      H         1.11301  *      71.58953  *  120.78142  *   1    2    3
+      5      H         1.11300  *      72.79000  *  119.22917  *   1    2    4
+      6     Br         1.87764  *     178.50948  *  148.08388  *   1    2    5
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM         X         Y         Z
+
+     1         C        0.0000    0.0000    0.0000
+     2        Cl        5.2157    0.0000    0.0000
+     3         H        0.3768    1.0473    0.0000
+     4         H        0.3515   -0.5404   -0.9073
+     5         H        0.3293   -0.5314    0.9208
+     6        Br       -1.8770    0.0431   -0.0230
+  H: (AM1): M.J.S. DEWAR ET AL, J. AM. CHEM. SOC. 107 3902-3909 (1985)          
+  C: (AM1): M.J.S. DEWAR ET AL, J. AM. CHEM. SOC. 107 3902-3909 (1985)          
+ Cl: (AM1): M.J.S. DEWAR AND E. G. ZOEBISCH, THEOCHEM, 180, 1 (1988).           
+ Br: (AM1): M.J.S. DEWAR AND E. G. ZOEBISCH, THEOCHEM, 180, 1 (1988).           
+
+
+          RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 11
+
+
+            INTERATOMIC DISTANCES
+0
+                  C  1      Cl  2       H  3       H  4       H  5      Br  6
+ ------------------------------------------------------------------------------
+     C    1   0.000000
+    Cl    2   5.215677   0.000000
+     H    3   1.113016   4.950879   0.000000
+     H    4   1.113013   4.977481   1.828847   0.000000
+     H    5   1.113003   5.000692   1.828243   1.828265   0.000000
+    Br    6   1.877638   7.092848   2.467533   2.467538   2.467525   0.000000
+ CYCLE:   1 TIME:   0.00 TIME LEFT:  3600.0 GRAD.:    19.946 HEAT:-46.70138    
+ CYCLE:   2 TIME:   0.00 TIME LEFT:  3600.0 GRAD.:    17.622 HEAT:-46.78700    
+ CYCLE:   3 TIME:   0.00 TIME LEFT:  3600.0 GRAD.:    10.731 HEAT:-46.97808    
+ CYCLE:   4 TIME:   0.00 TIME LEFT:  3600.0 GRAD.:     7.189 HEAT:-47.03241    
+ CYCLE:   5 TIME:   0.00 TIME LEFT:  3600.0 GRAD.:     2.590 HEAT:-47.07600    
+ CYCLE:   6 TIME:   0.00 TIME LEFT:  3600.0 GRAD.:     2.241 HEAT:-47.08392    
+ CYCLE:   7 TIME:   0.00 TIME LEFT:  3600.0 GRAD.:     2.190 HEAT:-47.09036    
+ CYCLE:   8 TIME:   0.00 TIME LEFT:  3600.0 GRAD.:     1.729 HEAT:-47.09521    
+ CYCLE:   9 TIME:   0.02 TIME LEFT:  3600.0 GRAD.:     1.334 HEAT:-47.09815    
+ CYCLE:  10 TIME:   0.00 TIME LEFT:  3600.0 GRAD.:     1.503 HEAT:-47.09978    
+ CYCLE:  11 TIME:   0.00 TIME LEFT:  3600.0 GRAD.:     1.999 HEAT:-47.10206    
+ CYCLE:  12 TIME:   0.00 TIME LEFT:  3600.0 GRAD.:     2.917 HEAT:-47.10687    
+ CYCLE:  13 TIME:   0.00 TIME LEFT:  3600.0 GRAD.:     4.390 HEAT:-47.11745    
+ CYCLE:  14 TIME:   0.00 TIME LEFT:  3600.0 GRAD.:     6.641 HEAT:-47.14096    
+ CYCLE:  15 TIME:   0.00 TIME LEFT:  3600.0 GRAD.:    10.088 HEAT:-47.19432    
+ CYCLE:  16 TIME:   0.00 TIME LEFT:  3600.0 GRAD.:    15.434 HEAT:-47.31922    
+ CYCLE:  17 TIME:   0.00 TIME LEFT:  3600.0 GRAD.:    19.126 HEAT:-47.47421    
+     WARNING! EIGENVALUE  1 TOO SMALL, REPLACED BY  0.100
+ CYCLE:  18 TIME:   0.00 TIME LEFT:  3600.0 GRAD.:    21.984 HEAT:-47.66722    
+     WARNING! HEREDITARY POSITIVE DEFINITENESS ENDANGERED
+     UPDATE SKIPPED THIS CYCLE
+     WARNING! EIGENVALUE  1 TOO SMALL, REPLACED BY  0.100
+ CYCLE:  19 TIME:   0.00 TIME LEFT:  3600.0 GRAD.:    24.974 HEAT:-47.87366    
+     WARNING! HEREDITARY POSITIVE DEFINITENESS ENDANGERED
+     UPDATE SKIPPED THIS CYCLE
+     WARNING! EIGENVALUE  1 TOO SMALL, REPLACED BY  0.100
+ CYCLE:  20 TIME:   0.00 TIME LEFT:  3600.0 GRAD.:    28.031 HEAT:-48.10176    
+     WARNING! HEREDITARY POSITIVE DEFINITENESS ENDANGERED
+     UPDATE SKIPPED THIS CYCLE
+     WARNING! EIGENVALUE  1 TOO SMALL, REPLACED BY  0.100
+ CYCLE:  21 TIME:   0.00 TIME LEFT:  3600.0 GRAD.:    31.117 HEAT:-48.36443    
+     WARNING! HEREDITARY POSITIVE DEFINITENESS ENDANGERED
+     UPDATE SKIPPED THIS CYCLE
+     WARNING! EIGENVALUE  1 TOO SMALL, REPLACED BY  0.100
+ CYCLE:  22 TIME:   0.00 TIME LEFT:  3600.0 GRAD.:    34.221 HEAT:-48.68492    
+     WARNING! HEREDITARY POSITIVE DEFINITENESS ENDANGERED
+     UPDATE SKIPPED THIS CYCLE
+     WARNING! EIGENVALUE  1 TOO SMALL, REPLACED BY  0.100
+ CYCLE:  23 TIME:   0.00 TIME LEFT:  3600.0 GRAD.:    37.376 HEAT:-49.09940    
+     WARNING! HEREDITARY POSITIVE DEFINITENESS ENDANGERED
+     UPDATE SKIPPED THIS CYCLE
+     WARNING! EIGENVALUE  1 TOO SMALL, REPLACED BY  0.100
+ CYCLE:  24 TIME:   0.00 TIME LEFT:  3600.0 GRAD.:    40.570 HEAT:-49.62799    
+     WARNING! HEREDITARY POSITIVE DEFINITENESS ENDANGERED
+     UPDATE SKIPPED THIS CYCLE
+     WARNING! EIGENVALUE  1 TOO SMALL, REPLACED BY  0.100
+ CYCLE:  25 TIME:   0.00 TIME LEFT:  3600.0 GRAD.:    43.726 HEAT:-50.15418    
+ CYCLE:  26 TIME:   0.00 TIME LEFT:  3600.0 GRAD.:    33.382 HEAT:-51.21226    
+ CYCLE:  27 TIME:   0.00 TIME LEFT:  3600.0 GRAD.:    25.505 HEAT:-51.72735    
+ CYCLE:  28 TIME:   0.00 TIME LEFT:  3600.0 GRAD.:     9.099 HEAT:-52.35080    
+ CYCLE:  29 TIME:   0.00 TIME LEFT:  3600.0 GRAD.:     5.728 HEAT:-52.40661    
+ CYCLE:  30 TIME:   0.00 TIME LEFT:  3600.0 GRAD.:     3.779 HEAT:-52.45816    
+ CYCLE:  31 TIME:   0.00 TIME LEFT:  3600.0 GRAD.:     3.133 HEAT:-52.48232    
+ CYCLE:  32 TIME:   0.00 TIME LEFT:  3600.0 GRAD.:     2.558 HEAT:-52.49545    
+ CYCLE:  33 TIME:   0.00 TIME LEFT:  3600.0 GRAD.:     2.258 HEAT:-52.50434    
+ CYCLE:  34 TIME:   0.00 TIME LEFT:  3600.0 GRAD.:     1.863 HEAT:-52.51272    
+ CYCLE:  35 TIME:   0.00 TIME LEFT:  3600.0 GRAD.:     1.019 HEAT:-52.51699    
+ CYCLE:  36 TIME:   0.00 TIME LEFT:  3600.0 GRAD.:     0.330 HEAT:-52.51791    
+
+ -------------------------------------------------------------------------------
+ AM1 EF CHARGE=-1
+ Title
+ 
+
+
+     GEOMETRY OPTIMISED USING EIGENVECTOR FOLLOWING (EF).     
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                                 AM1    CALCULATION
+                                                       VERSION  6.06
+                                                       04-Nov-20               
+
+
+
+
+          FINAL HEAT OF FORMATION =        -52.51791 KCAL
+
+
+          TOTAL ENERGY            =       -898.39998 EV
+          ELECTRONIC ENERGY       =      -1713.72348 EV
+          CORE-CORE REPULSION     =        815.32350 EV
+
+          IONIZATION POTENTIAL    =          3.47335
+          NO. OF FILLED LEVELS    =         11
+          MOLECULAR WEIGHT        =    130.392
+
+
+          SCF CALCULATIONS  =               37
+          COMPUTATION TIME =   0.016 SECONDS
+
+
+
+
+
+    ATOM   CHEMICAL  BOND LENGTH    BOND ANGLE     TWIST ANGLE
+   NUMBER  SYMBOL    (ANGSTROMS)     (DEGREES)      (DEGREES)
+    (I)                  NA:I          NB:NA:I      NC:NB:NA:I     NA   NB   NC
+
+      1      C       
+      2     Cl         2.86654  *                                  1
+      3      H         1.10786  *      73.49436  *                 1    2
+      4      H         1.10827  *      71.65854  *  119.05235  *   1    2    3
+      5      H         1.10870  *      69.99822  *  121.00924  *   1    2    4
+      6     Br         1.94766  *     178.09349  *  -31.88762  *   1    2    5
+
+
+            INTERATOMIC DISTANCES
+0
+                  C  1      Cl  2       H  3       H  4       H  5      Br  6
+ ------------------------------------------------------------------------------
+     C    1   0.000000
+    Cl    2   2.866542   0.000000
+     H    3   1.107864   2.764038   0.000000
+     H    4   1.108273   2.728720   1.822455   0.000000
+     H    5   1.108698   2.696686   1.822751   1.822690   0.000000
+    Br    6   1.947662   4.813561   2.523388   2.525334   2.526730   0.000000
+
+
+                  EIGENVALUES
+
+ -28.53015 -25.66740 -23.15872 -10.52424 -10.50480  -9.54202  -7.18887  -7.18511
+  -3.57163  -3.57101  -3.47335   4.73534   8.24805   8.27141   8.90204
+
+
+              NET ATOMIC CHARGES AND DIPOLE CONTRIBUTIONS
+
+         ATOM NO.   TYPE          CHARGE        ATOM  ELECTRON DENSITY
+           1          C          -0.1937          4.1937
+           2         Cl          -0.9752          7.9752
+           3          H           0.1232          0.8768
+           4          H           0.1268          0.8732
+           5          H           0.1303          0.8697
+           6         Br          -0.2114          7.2114
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.   -12.761    -0.117     0.063    12.762
+ HYBRID         0.441     0.021    -0.012     0.442
+ SUM          -12.320    -0.096     0.051    12.321
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM               X         Y         Z
+
+     1         C                  0.4054    0.0348   -0.0186
+     2        Cl                  3.2719    0.0348   -0.0186
+     3         H                  0.7202    1.0970   -0.0186
+     4         H                  0.7542   -0.4761   -0.9382
+     5         H                  0.7846   -0.4852    0.8842
+     6        Br                 -1.5412   -0.0224    0.0120
+
+
+          ATOMIC ORBITAL ELECTRON POPULATIONS
+
+   1.26607   0.75838   1.08189   1.08736   1.99988   1.97661   1.99944   1.99928
+   0.87681   0.87315   0.86971   1.97033   1.24849   1.99604   1.99654
+
+
+
+ TOTAL CPU TIME:             0.02 SECONDS
+
+ == MOPAC DONE ==

@@ -1,0 +1,965 @@
+ *******************************************************************************
+ ** [MOPAC] Ver.6 by James J. P. Stewart                                      **
+ *******************************************************************************
+ ** PDDG modification by W. L. Jorgensen et al.(Yale Univ.)                   **
+ ** Additional modification by N. Senda(Tencube) and W. Sasaki(pc-chem.info)  **
+ *******************************************************************************
+
+                                 AM1 CALCULATION RESULTS
+
+
+ *******************************************************************************
+ *          MOPAC:  VERSION  6.06               CALC'D. 04-Nov-20               
+ *   XYZ     - CARTESIAN COORDINATE SYSTEM TO BE USED
+ *
+ *
+ *
+ *                 CHARGE ON SYSTEM = -1
+ *
+ *
+ *
+ *   T=      - A TIME OF  3600.0 SECONDS REQUESTED
+ *  DUMP=N   - RESTART FILE WRITTEN EVERY  3600.0 SECONDS
+ *  AM1      - THE AM1 HAMILTONIAN TO BE USED
+ *  SADDLE   - TRANSITION STATE TO BE OPTIMIZED
+ ***********************************************************************080BY100
+ AM1 SADDLE XYZ CHARGE=-1
+ Title
+ 
+
+    ATOM   CHEMICAL  BOND LENGTH    BOND ANGLE     TWIST ANGLE
+   NUMBER  SYMBOL    (ANGSTROMS)     (DEGREES)      (DEGREES)
+    (I)                  NA:I          NB:NA:I      NC:NB:NA:I     NA   NB   NC
+
+      1      C       
+      2     Cl         1.78095  *                                  1
+      3      H         1.10981  *     107.53517  *                 1    2
+      4      H         1.10959  *     107.58529  *  119.98744  *   1    2    3
+      5      H         1.10975  *     107.65153  * -119.99270  *   1    2    3
+      6     Br         3.09521  *     179.97868  *   60.30653  *   1    2    3
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM         X         Y         Z
+
+     1         C        0.0000    0.0000    0.0000
+     2        Cl        1.7810    0.0000    0.0000
+     3         H       -0.3344    1.0582    0.0000
+     4         H       -0.3352   -0.5287   -0.9161
+     5         H       -0.3365   -0.5286    0.9159
+     6        Br       -3.0952    0.0006   -0.0010
+  H: (AM1): M.J.S. DEWAR ET AL, J. AM. CHEM. SOC. 107 3902-3909 (1985)          
+  C: (AM1): M.J.S. DEWAR ET AL, J. AM. CHEM. SOC. 107 3902-3909 (1985)          
+ Cl: (AM1): M.J.S. DEWAR AND E. G. ZOEBISCH, THEOCHEM, 180, 1 (1988).           
+ Br: (AM1): M.J.S. DEWAR AND E. G. ZOEBISCH, THEOCHEM, 180, 1 (1988).           
+
+
+          RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 11
+
+
+            INTERATOMIC DISTANCES
+0
+                  C  1      Cl  2       H  3       H  4       H  5      Br  6
+ ------------------------------------------------------------------------------
+     C    1   0.000000
+    Cl    2   1.780951   0.000000
+     H    3   1.109807   2.365263   0.000000
+     H    4   1.109586   2.365806   1.832368   0.000000
+     H    5   1.109753   2.366842   1.832219   1.832032   0.000000
+    Br    6   3.095213   4.876164   2.956499   2.955512   2.954862   0.000000
+
+
+           GEOMETRY OF SECOND SYSTEM
+
+
+    ATOM   CHEMICAL  BOND LENGTH    BOND ANGLE     TWIST ANGLE
+   NUMBER  SYMBOL    (ANGSTROMS)     (DEGREES)      (DEGREES)
+    (I)                  NA:I          NB:NA:I      NC:NB:NA:I     NA   NB   NC
+
+      1      C       
+      2     Cl         2.86654                                     1
+      3      H         1.10786         73.49436                    1    2
+      4      H         1.10827         71.65854     119.05235      1    2    3
+      5      H         1.10870         69.99822     121.00924      1    2    4
+      6     Br         1.94766        178.09349     -31.88762      1    2    5
+
+
+  CARTESIAN GEOMETRY OF FIRST SYSTEM
+
+
+      -0.32712       0.00428      -0.00230
+       2.53943       0.00428      -0.00230
+      -0.01236       1.06649      -0.00230
+       0.02164      -0.50656      -0.92191
+       0.05211      -0.51566       0.90051
+      -2.27370      -0.05284       0.02829
+
+
+  CARTESIAN GEOMETRY OF SECOND SYSTEM
+
+
+       0.38668       0.00650       0.00021
+       2.16735       0.03758       0.00021
+       0.03388       1.05874       0.00021
+       0.06072      -0.52794      -0.91593
+       0.05945      -0.52793       0.91610
+      -2.70808      -0.04695      -0.00079
+
+
+   "DISTANCE":     0.843297
+
+
+  REACTION COORDINATE VECTOR
+
+
+       0.71379       0.00222       0.00251
+      -0.37207       0.03330       0.00251
+       0.04624      -0.00776       0.00251
+       0.03908      -0.02137       0.00597
+       0.00733      -0.01227       0.01559
+      -0.43438       0.00589      -0.02909
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+  BAR SHORTENED BY   0.0000000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     1.00000
+
+
+          FOR POINT  1 SECOND STRUCTURE
+ DISTANCE A - B      0.918312
+ HEAT              -52.517911
+ GRADIENT NORM       0.417208
+ DIRECTION COSINE    0.000000
+ AM1 SADDLE XYZ CHARGE=-1
+ Title
+ 
+  C    0.0000000  0      0.000000  0      0.000000  0    0    0    0      0.0000
+ Cl    2.8665416  1      0.000000  0      0.000000  0    1    0    0      0.0000
+  H    1.1078639  1     73.494361  1      0.000000  0    1    2    0      0.0000
+  H    1.1082727  1     71.658537  1    119.052351  1    1    2    3      0.0000
+  H    1.1086983  1     69.998216  1   -119.938408  1    1    2    3      0.0000
+ Br    1.9476618  1    178.093491  1   -151.826031  1    1    2    3      0.0000
+
+ TIME=     0.00
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+  BAR SHORTENED BY  15.5444773 PERCENT
+ GRADIENT CRITERION IN FLEPO =     1.00000
+
+
+          FOR POINT  2 FIRST  STRUCTURE
+ DISTANCE A - B      0.775565
+ HEAT              -45.489389
+ GRADIENT NORM      21.651667
+ DIRECTION COSINE    0.302253
+ AM1 SADDLE XYZ CHARGE=-1
+ Title
+ 
+  C    0.0000000  0      0.000000  0      0.000000  0    0    0    0      0.0000
+ Cl    1.8450358  1      0.000000  0      0.000000  0    1    0    0      0.0000
+  H    1.1058804  1    105.583413  1      0.000000  0    1    2    0      0.0000
+  H    1.1059590  1    104.863423  1    119.893143  1    1    2    3      0.0000
+  H    1.1049160  1    104.590147  1   -120.180501  1    1    2    3      0.0000
+ Br    2.7223920  1     82.335949  1   -179.578962  1    5    1    2      0.0000
+
+ TIME=     0.00
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+  BAR SHORTENED BY  15.6446912 PERCENT
+ GRADIENT CRITERION IN FLEPO =    10.00000
+
+
+          FOR POINT  3 SECOND STRUCTURE
+ DISTANCE A - B      0.654230
+ HEAT              -51.313742
+ GRADIENT NORM      25.346252
+ DIRECTION COSINE    0.769429
+ AM1 SADDLE XYZ CHARGE=-1
+ Title
+ 
+  C    0.0000000  0      0.000000  0      0.000000  0    0    0    0      0.0000
+ Cl    2.6312363  1      0.000000  0      0.000000  0    1    0    0      0.0000
+  H    1.1105584  1     75.742128  1      0.000000  0    1    2    0      0.0000
+  H    1.0943755  1     74.323260  1    120.393864  1    1    2    3      0.0000
+  H    1.1085427  1     75.979840  1   -118.988840  1    1    2    3      0.0000
+ Br    1.9976550  1    179.522627  1    103.427762  1    1    2    3      0.0000
+
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+  BAR SHORTENED BY  15.7642568 PERCENT
+ GRADIENT CRITERION IN FLEPO =    10.00000
+
+
+          FOR POINT  4 SECOND STRUCTURE
+ DISTANCE A - B      0.551096
+ HEAT              -48.300080
+ GRADIENT NORM      40.074389
+ DIRECTION COSINE    0.873552
+ AM1 SADDLE XYZ CHARGE=-1
+ Title
+ 
+  C    0.0000000  0      0.000000  0      0.000000  0    0    0    0      0.0000
+ Cl    2.4570077  1      0.000000  0      0.000000  0    1    0    0      0.0000
+  H    1.1089927  1     79.735187  1      0.000000  0    1    2    0      0.0000
+  H    1.0932350  1     79.677377  1    119.992203  1    1    2    3      0.0000
+  H    1.0952730  1     79.683998  1   -119.894783  1    1    2    3      0.0000
+ Br    2.0888990  1    179.267792  1   -138.710090  1    1    2    3      0.0000
+
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+  BAR SHORTENED BY  15.9072833 PERCENT
+ GRADIENT CRITERION IN FLEPO =    10.00000
+
+
+          FOR POINT  5 SECOND STRUCTURE
+ DISTANCE A - B      0.463431
+ HEAT              -44.940896
+ GRADIENT NORM      38.218823
+ DIRECTION COSINE    0.947909
+ AM1 SADDLE XYZ CHARGE=-1
+ Title
+ 
+  C    0.0000000  0      0.000000  0      0.000000  0    0    0    0      0.0000
+ Cl    2.3062193  1      0.000000  0      0.000000  0    1    0    0      0.0000
+  H    1.0960833  1     84.618122  1      0.000000  0    1    2    0      0.0000
+  H    1.0892422  1     83.995049  1    120.108204  1    1    2    3      0.0000
+  H    1.0959742  1     83.626272  1   -120.221781  1    1    2    3      0.0000
+ Br    2.1755876  1    179.078551  1   -144.548425  1    1    2    3      0.0000
+
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+  BAR SHORTENED BY   0.0000000 PERCENT
+ GRADIENT CRITERION IN FLEPO =    10.00000
+
+
+          FOR POINT  6 FIRST  STRUCTURE
+ DISTANCE A - B      0.463431
+ HEAT              -45.489389
+ GRADIENT NORM      21.651681
+ DIRECTION COSINE    0.900510
+ AM1 SADDLE XYZ CHARGE=-1
+ Title
+ 
+  C    0.0000000  0      0.000000  0      0.000000  0    0    0    0      0.0000
+ Cl    1.8450358  1      0.000000  0      0.000000  0    1    0    0      0.0000
+  H    1.1058804  1    105.583413  1      0.000000  0    1    2    0      0.0000
+  H    1.1059590  1    104.863423  1    119.893143  1    1    2    3      0.0000
+  H    1.1049160  1    104.590147  1   -120.180501  1    1    2    3      0.0000
+ Br    2.7223920  1     82.335949  1   -179.578962  1    5    1    2      0.0000
+
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+  BAR SHORTENED BY  16.0789082 PERCENT
+ GRADIENT CRITERION IN FLEPO =    10.00000
+
+
+          FOR POINT  7 FIRST  STRUCTURE
+ DISTANCE A - B      0.388917
+ HEAT              -43.985507
+ GRADIENT NORM      29.737253
+ DIRECTION COSINE    0.893487
+ AM1 SADDLE XYZ CHARGE=-1
+ Title
+ 
+  C    0.0000000  0      0.000000  0      0.000000  0    0    0    0      0.0000
+ Cl    1.8900823  1      0.000000  0      0.000000  0    1    0    0      0.0000
+  H    1.1111733  1    102.225598  1      0.000000  0    1    2    0      0.0000
+  H    1.0983150  1    101.026376  1    120.413737  1    1    2    3      0.0000
+  H    1.1026222  1    101.709979  1   -119.941209  1    1    2    3      0.0000
+ Br    2.6759036  1     78.812744  1   -179.933165  1    5    1    2      0.0000
+
+ TIME=     0.00
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+  BAR SHORTENED BY  16.2856223 PERCENT
+ GRADIENT CRITERION IN FLEPO =    10.00000
+
+
+          FOR POINT  8 SECOND STRUCTURE
+ DISTANCE A - B      0.325579
+ HEAT              -42.856902
+ GRADIENT NORM      28.814478
+ DIRECTION COSINE    0.832504
+ AM1 SADDLE XYZ CHARGE=-1
+ Title
+ 
+  C    0.0000000  0      0.000000  0      0.000000  0    0    0    0      0.0000
+ Cl    2.2141882  1      0.000000  0      0.000000  0    1    0    0      0.0000
+  H    1.0953776  1     87.857944  1      0.000000  0    1    2    0      0.0000
+  H    1.0936931  1     87.177925  1    120.336047  1    1    2    3      0.0000
+  H    1.0927231  1     87.381462  1   -120.380934  1    1    2    3      0.0000
+ Br    2.2483246  1    179.253150  1   -143.460120  1    1    2    3      0.0000
+
+ TIME=     0.00
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+  BAR SHORTENED BY  16.5357246 PERCENT
+ GRADIENT CRITERION IN FLEPO =    10.00000
+
+
+          FOR POINT  9 FIRST  STRUCTURE
+ DISTANCE A - B      0.271742
+ HEAT              -43.206252
+ GRADIENT NORM      21.511954
+ DIRECTION COSINE    0.945632
+ AM1 SADDLE XYZ CHARGE=-1
+ Title
+ 
+  C    0.0000000  0      0.000000  0      0.000000  0    0    0    0      0.0000
+ Cl    1.9008059  1      0.000000  0      0.000000  0    1    0    0      0.0000
+  H    1.1061544  1    100.798126  1      0.000000  0    1    2    0      0.0000
+  H    1.1038329  1    100.568955  1    120.428518  1    1    2    3      0.0000
+  H    1.1053597  1    100.654823  1   -119.987627  1    1    2    3      0.0000
+ Br    2.5885974  1    179.306943  1   -104.229512  1    1    2    3      0.0000
+
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+  BAR SHORTENED BY  16.8399783 PERCENT
+ GRADIENT CRITERION IN FLEPO =    10.00000
+
+
+          FOR POINT 10 FIRST  STRUCTURE
+ DISTANCE A - B      0.225981
+ HEAT              -42.245504
+ GRADIENT NORM      21.356147
+ DIRECTION COSINE    0.934230
+ AM1 SADDLE XYZ CHARGE=-1
+ Title
+ 
+  C    0.0000000  0      0.000000  0      0.000000  0    0    0    0      0.0000
+ Cl    1.9535708  1      0.000000  0      0.000000  0    1    0    0      0.0000
+  H    1.1002548  1     98.654583  1      0.000000  0    1    2    0      0.0000
+  H    1.0982060  1     98.331403  1    120.404453  1    1    2    3      0.0000
+  H    1.0990448  1     98.455703  1   -120.080539  1    1    2    3      0.0000
+ Br    2.5312942  1    179.328388  1   -111.556944  1    1    2    3      0.0000
+
+ TIME=     0.00
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+  BAR SHORTENED BY  17.2125756 PERCENT
+ GRADIENT CRITERION IN FLEPO =    10.00000
+
+
+          FOR POINT 11 SECOND STRUCTURE
+ DISTANCE A - B      0.187084
+ HEAT              -42.011480
+ GRADIENT NORM      17.282073
+ DIRECTION COSINE    0.848210
+ AM1 SADDLE XYZ CHARGE=-1
+ Title
+ 
+  C    0.0000000  0      0.000000  0      0.000000  0    0    0    0      0.0000
+ Cl    2.1292088  1      0.000000  0      0.000000  0    1    0    0      0.0000
+  H    1.0992930  1     90.305452  1      0.000000  0    1    2    0      0.0000
+  H    1.0926450  1     90.189121  1    120.510286  1    1    2    3      0.0000
+  H    1.0958402  1     90.041402  1   -120.000127  1    1    2    3      0.0000
+ Br    2.2760753  1    179.392747  1   -110.497390  1    1    2    3      0.0000
+
+ TIME=     0.00
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+  BAR SHORTENED BY  17.6725986 PERCENT
+ GRADIENT CRITERION IN FLEPO =    10.00000
+
+
+          FOR POINT 12 FIRST  STRUCTURE
+ DISTANCE A - B      0.154021
+ HEAT              -41.732754
+ GRADIENT NORM      17.772045
+ DIRECTION COSINE    0.753983
+ AM1 SADDLE XYZ CHARGE=-1
+ Title
+ 
+  C    0.0000000  0      0.000000  0      0.000000  0    0    0    0      0.0000
+ Cl    1.9846106  1      0.000000  0      0.000000  0    1    0    0      0.0000
+  H    1.0983944  1     97.182684  1      0.000000  0    1    2    0      0.0000
+  H    1.0956255  1     96.900758  1    120.421936  1    1    2    3      0.0000
+  H    1.0967455  1     96.975601  1   -120.066951  1    1    2    3      0.0000
+ Br    2.4861903  1    179.339790  1   -111.388043  1    1    2    3      0.0000
+
+ TIME=     0.00
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+  BAR SHORTENED BY  18.2463051 PERCENT
+ GRADIENT CRITERION IN FLEPO =    10.00000
+
+
+          FOR POINT 13 SECOND STRUCTURE
+ DISTANCE A - B      0.125918
+ HEAT              -41.628317
+ GRADIENT NORM      12.884566
+ DIRECTION COSINE    0.546877
+ AM1 SADDLE XYZ CHARGE=-1
+ Title
+ 
+  C    0.0000000  0      0.000000  0      0.000000  0    0    0    0      0.0000
+ Cl    2.1028249  1      0.000000  0      0.000000  0    1    0    0      0.0000
+  H    1.0979536  1     91.557759  1      0.000000  0    1    2    0      0.0000
+  H    1.0920739  1     91.414868  1    120.493391  1    1    2    3      0.0000
+  H    1.0947983  1     91.306164  1   -120.012712  1    1    2    3      0.0000
+ Br    2.3144135  1    179.383055  1   -110.674548  1    1    2    3      0.0000
+
+ TIME=     0.00
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+  BAR SHORTENED BY  18.9708359 PERCENT
+ GRADIENT CRITERION IN FLEPO =     9.88457
+
+
+          FOR POINT 14 FIRST  STRUCTURE
+ DISTANCE A - B      0.102030
+ HEAT              -41.472399
+ GRADIENT NORM      14.473134
+ DIRECTION COSINE    0.383103
+ AM1 SADDLE XYZ CHARGE=-1
+ Title
+ 
+  C    0.0000000  0      0.000000  0      0.000000  0    0    0    0      0.0000
+ Cl    2.0070368  1      0.000000  0      0.000000  0    1    0    0      0.0000
+  H    1.0975007  1     96.116690  1      0.000000  0    1    2    0      0.0000
+  H    1.0941856  1     95.863447  1    120.434918  1    1    2    3      0.0000
+  H    1.0955454  1     95.902724  1   -120.056954  1    1    2    3      0.0000
+ Br    2.4536028  1    179.348006  1   -111.261653  1    1    2    3      0.0000
+
+ TIME=     0.00
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+  BAR SHORTENED BY  19.9005021 PERCENT
+ GRADIENT CRITERION IN FLEPO =    10.00000
+
+
+          FOR POINT 15 SECOND STRUCTURE
+ DISTANCE A - B      0.081726
+ HEAT              -41.433259
+ GRADIENT NORM      10.202372
+ DIRECTION COSINE    0.063264
+ AM1 SADDLE XYZ CHARGE=-1
+ Title
+ 
+  C    0.0000000  0      0.000000  0      0.000000  0    0    0    0      0.0000
+ Cl    2.0837626  1      0.000000  0      0.000000  0    1    0    0      0.0000
+  H    1.0973118  1     92.464184  1      0.000000  0    1    2    0      0.0000
+  H    1.0919712  1     92.301025  1    120.481387  1    1    2    3      0.0000
+  H    1.0943806  1     92.221065  1   -120.021703  1    1    2    3      0.0000
+ Br    2.3421128  1    179.376070  1   -110.798081  1    1    2    3      0.0000
+
+ TIME=     0.00
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+  BAR SHORTENED BY  20.0000000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     7.20237
+
+
+          FOR POINT 16 FIRST  STRUCTURE
+ DISTANCE A - B      0.065381
+ HEAT              -41.426584
+ GRADIENT NORM       8.213305
+ DIRECTION COSINE   -0.089114
+ AM1 SADDLE XYZ CHARGE=-1
+ Title
+ 
+  C    0.0000000  0      0.000000  0      0.000000  0    0    0    0      0.0000
+ Cl    2.0175245  1      0.000000  0      0.000000  0    1    0    0      0.0000
+  H    1.1015586  1     94.573589  1      0.000000  0    1    2    0      0.0000
+  H    1.0959303  1     96.123706  1    120.437201  1    1    2    3      0.0000
+  H    1.0980044  1     94.849534  1   -119.903542  1    1    2    3      0.0000
+ Br    2.4020333  1    178.641588  1    -65.839353  1    1    2    3      0.0000
+
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+  BAR SHORTENED BY  20.0000000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     5.21331
+
+
+          FOR POINT 17 SECOND STRUCTURE
+ DISTANCE A - B      0.052305
+ HEAT              -41.433581
+ GRADIENT NORM       6.039130
+ DIRECTION COSINE   -0.162071
+ AM1 SADDLE XYZ CHARGE=-1
+ Title
+ 
+  C    0.0000000  0      0.000000  0      0.000000  0    0    0    0      0.0000
+ Cl    2.0595407  1      0.000000  0      0.000000  0    1    0    0      0.0000
+  H    1.0991706  1     93.645909  1      0.000000  0    1    2    0      0.0000
+  H    1.0948887  1     93.563123  1    120.417752  1    1    2    3      0.0000
+  H    1.0966356  1     92.604586  1   -120.041659  1    1    2    3      0.0000
+ Br    2.3428367  1    178.939499  1    -67.441669  1    1    2    3      0.0000
+
+ TIME=     0.00
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+  BAR SHORTENED BY  20.0000000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     3.03913
+
+
+          FOR POINT 18 FIRST  STRUCTURE
+ DISTANCE A - B      0.041844
+ HEAT              -41.466001
+ GRADIENT NORM       5.227704
+ DIRECTION COSINE    0.676421
+ AM1 SADDLE XYZ CHARGE=-1
+ Title
+ 
+  C    0.0000000  0      0.000000  0      0.000000  0    0    0    0      0.0000
+ Cl    2.0101914  1      0.000000  0      0.000000  0    1    0    0      0.0000
+  H    1.0993379  1     95.538657  1      0.000000  0    1    2    0      0.0000
+  H    1.1014227  1     95.705271  1    120.382857  1    1    2    3      0.0000
+  H    1.0989910  1     94.914840  1   -120.151600  1    1    2    3      0.0000
+ Br    2.3897455  1    179.220238  1    -66.408442  1    1    2    3      0.0000
+
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+  BAR SHORTENED BY  20.0000000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.22770
+
+
+          FOR POINT 19 FIRST  STRUCTURE
+ DISTANCE A - B      0.033475
+ HEAT              -41.436206
+ GRADIENT NORM       3.581169
+ DIRECTION COSINE    0.962941
+ AM1 SADDLE XYZ CHARGE=-1
+ Title
+ 
+  C    0.0000000  0      0.000000  0      0.000000  0    0    0    0      0.0000
+ Cl    2.0200598  1      0.000000  0      0.000000  0    1    0    0      0.0000
+  H    1.0992100  1     95.160154  1      0.000000  0    1    2    0      0.0000
+  H    1.0999749  1     95.279681  1    120.391318  1    1    2    3      0.0000
+  H    1.0983939  1     94.453050  1   -120.127970  1    1    2    3      0.0000
+ Br    2.3803629  1    179.163855  1    -66.694830  1    1    2    3      0.0000
+
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+  BAR SHORTENED BY  20.0000000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.22770
+
+
+          FOR POINT 20 FIRST  STRUCTURE
+ DISTANCE A - B      0.026780
+ HEAT              -41.420259
+ GRADIENT NORM       2.617890
+ DIRECTION COSINE    0.906109
+ AM1 SADDLE XYZ CHARGE=-1
+ Title
+ 
+  C    0.0000000  0      0.000000  0      0.000000  0    0    0    0      0.0000
+ Cl    2.0279551  1      0.000000  0      0.000000  0    1    0    0      0.0000
+  H    1.0991417  1     94.857309  1      0.000000  0    1    2    0      0.0000
+  H    1.0988672  1     94.938142  1    120.397545  1    1    2    3      0.0000
+  H    1.0979615  1     94.083489  1   -120.109667  1    1    2    3      0.0000
+ Br    2.3728571  1    179.118835  1    -66.889187  1    1    2    3      0.0000
+
+ TIME=     0.00
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+  BAR SHORTENED BY   0.0000000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.22770
+
+
+          FOR POINT 21 SECOND STRUCTURE
+ DISTANCE A - B      0.026780
+ HEAT              -41.454646
+ GRADIENT NORM       4.032550
+ DIRECTION COSINE    0.357497
+ AM1 SADDLE XYZ CHARGE=-1
+ Title
+ 
+  C    0.0000000  0      0.000000  0      0.000000  0    0    0    0      0.0000
+ Cl    2.0555208  1      0.000000  0      0.000000  0    1    0    0      0.0000
+  H    1.0975031  1     93.495706  1      0.000000  0    1    2    0      0.0000
+  H    1.0978725  1     93.507751  1    120.257718  1    1    2    3      0.0000
+  H    1.0974835  1     92.915065  1   -120.200171  1    1    2    3      0.0000
+ Br    2.3385838  1    179.242605  1    -63.647536  1    1    2    3      0.0000
+
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+  BAR SHORTENED BY  20.0000000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     1.03255
+ 
+
+                    SINCE COS WAS JUST RESET,THE SEARCH IS BEING ENDED
+
+
+          FOR POINT 22 SECOND STRUCTURE
+ DISTANCE A - B      0.021424
+ HEAT              -41.436852
+ GRADIENT NORM       3.078697
+ DIRECTION COSINE    0.986017
+ AM1 SADDLE XYZ CHARGE=-1
+ Title
+ 
+  C    0.0000000  0      0.000000  0      0.000000  0    0    0    0      0.0000
+ Cl    2.0500072  1      0.000000  0      0.000000  0    1    0    0      0.0000
+  H    1.0977826  1     93.768309  1      0.000000  0    1    2    0      0.0000
+  H    1.0980213  1     93.793889  1    120.285084  1    1    2    3      0.0000
+  H    1.0975370  1     93.149010  1   -120.182492  1    1    2    3      0.0000
+ Br    2.3454383  1    179.218097  1    -64.370174  1    1    2    3      0.0000
+
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+  BAR SHORTENED BY  20.0000000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     1.03255
+
+
+          FOR POINT 23 SECOND STRUCTURE
+ DISTANCE A - B      0.017139
+ HEAT              -41.428484
+ GRADIENT NORM       2.099182
+ DIRECTION COSINE    0.843948
+ AM1 SADDLE XYZ CHARGE=-1
+ Title
+ 
+  C    0.0000000  0      0.000000  0      0.000000  0    0    0    0      0.0000
+ Cl    2.0424952  1      0.000000  0      0.000000  0    1    0    0      0.0000
+  H    1.0981462  1     94.087018  1      0.000000  0    1    2    0      0.0000
+  H    1.0977077  1     94.056701  1    120.195661  1    1    2    3      0.0000
+  H    1.0986129  1     93.616753  1   -120.143521  1    1    2    3      0.0000
+ Br    2.3518282  1    179.347118  1    -60.455671  1    1    2    3      0.0000
+
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+  BAR SHORTENED BY   0.0000000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     1.03255
+
+
+          FOR POINT 24 FIRST  STRUCTURE
+ DISTANCE A - B      0.017139
+ HEAT              -41.433951
+ GRADIENT NORM       2.225173
+ DIRECTION COSINE    0.481813
+ AM1 SADDLE XYZ CHARGE=-1
+ Title
+ 
+  C    0.0000000  0      0.000000  0      0.000000  0    0    0    0      0.0000
+ Cl    2.0242776  1      0.000000  0      0.000000  0    1    0    0      0.0000
+  H    1.0994624  1     94.865435  1      0.000000  0    1    2    0      0.0000
+  H    1.0987103  1     94.880463  1    120.070925  1    1    2    3      0.0000
+  H    1.0980457  1     94.598190  1   -120.095319  1    1    2    3      0.0000
+ Br    2.3704760  1    179.455415  1    -54.628443  1    1    2    3      0.0000
+
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+  BAR SHORTENED BY  20.0000000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     1.03255
+
+
+          FOR POINT 25 FIRST  STRUCTURE
+ DISTANCE A - B      0.013711
+ HEAT              -41.429130
+ GRADIENT NORM       1.822739
+ DIRECTION COSINE    0.819420
+ AM1 SADDLE XYZ CHARGE=-1
+ Title
+ 
+  C    0.0000000  0      0.000000  0      0.000000  0    0    0    0      0.0000
+ Cl    2.0285812  1      0.000000  0      0.000000  0    1    0    0      0.0000
+  H    1.0990974  1     94.674332  1      0.000000  0    1    2    0      0.0000
+  H    1.0976917  1     94.688898  1    120.030139  1    1    2    3      0.0000
+  H    1.0981976  1     94.375626  1   -120.107261  1    1    2    3      0.0000
+ Br    2.3662339  1    179.483585  1    -57.411146  1    1    2    3      0.0000
+
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+  BAR SHORTENED BY  20.0000000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     1.03255
+           THERE HAVE BEEN 3 ATTEMPTS TO REDUCE THE  GRADIENT.
+           DURING THESE ATTEMPTS THE ENERGY DROPPED BY LESS THAN 0.3 KCAL/MOLE
+           FURTHER CALCULATION IS NOT JUSTIFIED AT THIS TIME.
+           TO CONTINUE, START AGAIN WITH THE WORD "PRECISE"
+
+
+          FOR POINT 26 FIRST  STRUCTURE
+ DISTANCE A - B      0.010969
+ HEAT              -41.431489
+ GRADIENT NORM       1.878665
+ DIRECTION COSINE   -0.204824
+ AM1 SADDLE XYZ CHARGE=-1
+ Title
+ 
+  C    0.0000000  0      0.000000  0      0.000000  0    0    0    0      0.0000
+ Cl    2.0417329  1      0.000000  0      0.000000  0    1    0    0      0.0000
+  H    1.0980688  1     94.017699  1      0.000000  0    1    2    0      0.0000
+  H    1.0978415  1     93.972808  1    120.258539  1    1    2    3      0.0000
+  H    1.0987191  1     93.912583  1   -120.066534  1    1    2    3      0.0000
+ Br    2.3520978  1    179.657415  1    -50.313772  1    1    2    3      0.0000
+
+ TIME=     0.00
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+  BAR SHORTENED BY   0.0000000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     1.03255
+           THERE HAVE BEEN 3 ATTEMPTS TO REDUCE THE  GRADIENT.
+           DURING THESE ATTEMPTS THE ENERGY DROPPED BY LESS THAN 0.3 KCAL/MOLE
+           FURTHER CALCULATION IS NOT JUSTIFIED AT THIS TIME.
+           TO CONTINUE, START AGAIN WITH THE WORD "PRECISE"
+
+
+          FOR POINT 27 SECOND STRUCTURE
+ DISTANCE A - B      0.010969
+ HEAT              -41.435639
+ GRADIENT NORM       4.044057
+ DIRECTION COSINE   -0.589332
+ AM1 SADDLE XYZ CHARGE=-1
+ Title
+ 
+  C    0.0000000  0      0.000000  0      0.000000  0    0    0    0      0.0000
+ Cl    2.0466362  1      0.000000  0      0.000000  0    1    0    0      0.0000
+  H    1.0952185  1     93.769158  1      0.000000  0    1    2    0      0.0000
+  H    1.0980510  1     93.785258  1    119.989894  1    1    2    3      0.0000
+  H    1.0983949  1     93.815682  1   -120.322704  1    1    2    3      0.0000
+ Br    2.3469575  1    179.765042  1    -63.177862  1    1    2    3      0.0000
+
+ TIME=     0.00
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+  BAR SHORTENED BY  20.0000000 PERCENT
+ AT END OF REACTION
+
+ -------------------------------------------------------------------------------
+ AM1 SADDLE XYZ CHARGE=-1
+ Title
+ 
+
+
+     GRADIENT TEST NOT PASSED, BUT FURTHER WORK NOT JUSTIFIED 
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                                 AM1    CALCULATION
+                                                       VERSION  6.06
+                                                       04-Nov-20               
+
+
+
+
+          FINAL HEAT OF FORMATION =        -41.43529 KCAL
+
+
+          TOTAL ENERGY            =       -897.91940 EV
+          ELECTRONIC ENERGY       =      -1756.85936 EV
+          CORE-CORE REPULSION     =        858.93996 EV
+
+          GRADIENT NORM           =          3.62295
+          IONIZATION POTENTIAL    =          3.62880
+          NO. OF FILLED LEVELS    =         11
+          MOLECULAR WEIGHT        =    130.392
+
+
+          SCF CALCULATIONS  =              165
+          COMPUTATION TIME =   0.047 SECONDS
+
+
+
+       FINAL  POINT  AND  DERIVATIVES
+
+   PARAMETER     ATOM    TYPE            VALUE       GRADIENT
+      1          1  C    CARTESIAN X     0.106408     1.605684  KCAL/ANGSTROM
+      2          1  C    CARTESIAN Y     0.017442     2.597990  KCAL/ANGSTROM
+      3          1  C    CARTESIAN Z     0.008002     0.164332  KCAL/ANGSTROM
+      4          2 Cl    CARTESIAN X     2.151123     0.254858  KCAL/ANGSTROM
+      5          2 Cl    CARTESIAN Y     0.078707     0.389776  KCAL/ANGSTROM
+      6          2 Cl    CARTESIAN Z     0.017414     0.300363  KCAL/ANGSTROM
+      7          3  H    CARTESIAN X     0.000680     0.168602  KCAL/ANGSTROM
+      8          3  H    CARTESIAN Y     1.108095    -1.556515  KCAL/ANGSTROM
+      9          3  H    CARTESIAN Z     0.014447    -0.139843  KCAL/ANGSTROM
+     10          4  H    CARTESIAN X     0.053866    -0.217409  KCAL/ANGSTROM
+     11          4  H    CARTESIAN Y    -0.526988    -0.025981  KCAL/ANGSTROM
+     12          4  H    CARTESIAN Z    -0.944079     0.423141  KCAL/ANGSTROM
+     13          5  H    CARTESIAN X     0.045356    -0.406897  KCAL/ANGSTROM
+     14          5  H    CARTESIAN Y    -0.542990    -0.372972  KCAL/ANGSTROM
+     15          5  H    CARTESIAN Z     0.950764    -0.087117  KCAL/ANGSTROM
+     16          6 Br    CARTESIAN X    -2.240673    -0.656767  KCAL/ANGSTROM
+     17          6 Br    CARTESIAN Y    -0.047669    -0.019503  KCAL/ANGSTROM
+     18          6 Br    CARTESIAN Z     0.006267     0.148940  KCAL/ANGSTROM
+
+
+
+
+
+    ATOM   CHEMICAL  BOND LENGTH    BOND ANGLE     TWIST ANGLE
+   NUMBER  SYMBOL    (ANGSTROMS)     (DEGREES)      (DEGREES)
+    (I)                  NA:I          NB:NA:I      NC:NB:NA:I     NA   NB   NC
+
+      1      C       
+      2     Cl         2.04565  *                                  1
+      3      H         1.09579  *      93.81907  *                 1    2
+      4      H         1.09801  *      93.82272  *  120.04358  *   1    2    3
+      5      H         1.09846  *      93.83512  * -120.27152  *   1    2    3
+      6     Br         2.34798  *     179.74478  *  -59.75089  *   1    2    3
+
+
+            INTERATOMIC DISTANCES
+0
+                  C  1      Cl  2       H  3       H  4       H  5      Br  6
+ ------------------------------------------------------------------------------
+     C    1   0.000000
+    Cl    2   2.045655   0.000000
+     H    3   1.095785   2.384126   0.000000
+     H    4   1.098009   2.385336   1.896075   0.000000
+     H    5   1.098459   2.385772   1.898622   1.894930   0.000000
+    Br    6   2.347984   4.393628   2.521809   2.529390   2.522567   0.000000
+
+
+                  EIGENVALUES
+
+ -29.77500 -24.69242 -21.33743 -10.31297 -10.28550  -8.37705  -6.22226  -6.22100
+  -4.34761  -4.34684  -3.62880   5.66221   8.46048   8.83260   8.85538
+
+
+              NET ATOMIC CHARGES AND DIPOLE CONTRIBUTIONS
+
+         ATOM NO.   TYPE          CHARGE        ATOM  ELECTRON DENSITY
+           1          C           0.0467          3.9533
+           2         Cl          -0.6125          7.6125
+           3          H           0.1068          0.8932
+           4          H           0.1056          0.8944
+           5          H           0.1064          0.8936
+           6         Br          -0.7530          7.7530
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.    -1.884    -0.060    -0.012     1.885
+ HYBRID         0.089     0.001    -0.002     0.089
+ SUM           -1.795    -0.059    -0.014     1.796
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM               X         Y         Z
+
+     1         C                  0.8840    0.0234   -0.0015
+     2        Cl                  2.9288    0.0846    0.0079
+     3         H                  0.7783    1.1140    0.0050
+     4         H                  0.8315   -0.5211   -0.9536
+     5         H                  0.8230   -0.5371    0.9413
+     6        Br                 -1.4630   -0.0418   -0.0032
+
+
+          ATOMIC ORBITAL ELECTRON POPULATIONS
+
+   1.29573   0.62172   1.01765   1.01821   1.99543   1.61840   1.99916   1.99948
+   0.89320   0.89441   0.89359   1.99448   1.75875   1.99980   1.99998
+ BEST ESTIMATE GEOMETRY OF THE TRANSITION STATE
+
+
+           C1=   0.527C2=   0.473
+
+ -------------------------------------------------------------------------------
+ AM1 SADDLE XYZ CHARGE=-1
+ Title
+ 
+
+
+     GRADIENT TEST NOT PASSED, BUT FURTHER WORK NOT JUSTIFIED 
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                                 AM1    CALCULATION
+                                                       VERSION  6.06
+                                                       04-Nov-20               
+
+
+
+
+          FINAL HEAT OF FORMATION =        -41.43421 KCAL
+
+
+          TOTAL ENERGY            =       -897.91935 EV
+          ELECTRONIC ENERGY       =      -1756.83699 EV
+          CORE-CORE REPULSION     =        858.91764 EV
+
+          GRADIENT NORM           =          2.62049
+          IONIZATION POTENTIAL    =          3.62345
+          NO. OF FILLED LEVELS    =         11
+          MOLECULAR WEIGHT        =    130.392
+
+
+          SCF CALCULATIONS  =                1
+          COMPUTATION TIME =   0.047 SECONDS
+
+
+
+       FINAL  POINT  AND  DERIVATIVES
+
+   PARAMETER     ATOM    TYPE            VALUE       GRADIENT
+      1          1  C    CARTESIAN X     0.108018     1.451205  KCAL/ANGSTROM
+      2          1  C    CARTESIAN Y     0.017471     1.536404  KCAL/ANGSTROM
+      3          1  C    CARTESIAN Z     0.007991    -0.501478  KCAL/ANGSTROM
+      4          2 Cl    CARTESIAN X     2.151119    -0.075959  KCAL/ANGSTROM
+      5          2 Cl    CARTESIAN Y     0.078713    -0.004026  KCAL/ANGSTROM
+      6          2 Cl    CARTESIAN Z     0.019014     0.045506  KCAL/ANGSTROM
+      7          3  H    CARTESIAN X     0.000620    -0.272772  KCAL/ANGSTROM
+      8          3  H    CARTESIAN Y     1.108887    -1.067696  KCAL/ANGSTROM
+      9          3  H    CARTESIAN Z     0.015932    -0.045555  KCAL/ANGSTROM
+     10          4  H    CARTESIAN X     0.055067    -0.116588  KCAL/ANGSTROM
+     11          4  H    CARTESIAN Y    -0.527005    -0.145202  KCAL/ANGSTROM
+     12          4  H    CARTESIAN Z    -0.943963     0.430550  KCAL/ANGSTROM
+     13          5  H    CARTESIAN X     0.045611    -0.335703  KCAL/ANGSTROM
+     14          5  H    CARTESIAN Y    -0.542997    -0.384066  KCAL/ANGSTROM
+     15          5  H    CARTESIAN Z     0.950765    -0.051006  KCAL/ANGSTROM
+     16          6 Br    CARTESIAN X    -2.240784    -0.650183  KCAL/ANGSTROM
+     17          6 Br    CARTESIAN Y    -0.046220     0.064585  KCAL/ANGSTROM
+     18          6 Br    CARTESIAN Z     0.005136     0.121982  KCAL/ANGSTROM
+
+
+
+
+
+    ATOM   CHEMICAL  BOND LENGTH    BOND ANGLE     TWIST ANGLE
+   NUMBER  SYMBOL    (ANGSTROMS)     (DEGREES)      (DEGREES)
+    (I)                  NA:I          NB:NA:I      NC:NB:NA:I     NA   NB   NC
+
+      1      C       
+      2     Cl         2.04405  *                                  1
+      3      H         1.09672  *      93.90058  *                 1    2
+      4      H         1.09794  *      93.88411  *  120.13153  *   1    2    3
+      5      H         1.09856  *      93.86688  * -120.18766  *   1    2    3
+      6     Br         2.34967  *     179.71001  *  -55.20301  *   1    2    3
+
+
+            INTERATOMIC DISTANCES
+0
+                  C  1      Cl  2       H  3       H  4       H  5      Br  6
+ ------------------------------------------------------------------------------
+     C    1   0.000000
+    Cl    2   2.044048   0.000000
+     H    3   1.096717   2.384515   0.000000
+     H    4   1.097940   2.384880   1.897500   0.000000
+     H    5   1.098564   2.384920   1.898594   1.894819   0.000000
+    Br    6   2.349667   4.393701   2.521564   2.530391   2.523610   0.000000
+
+
+                  EIGENVALUES
+
+ -29.79093 -24.68325 -21.32804 -10.31048 -10.28652  -8.38458  -6.23086  -6.22960
+  -4.33808  -4.33716  -3.62345   5.66377   8.45930   8.83273   8.85213
+
+
+              NET ATOMIC CHARGES AND DIPOLE CONTRIBUTIONS
+
+         ATOM NO.   TYPE          CHARGE        ATOM  ELECTRON DENSITY
+           1          C           0.0465          3.9535
+           2         Cl          -0.6109          7.6109
+           3          H           0.1069          0.8931
+           4          H           0.1057          0.8943
+           5          H           0.1063          0.8937
+           6         Br          -0.7544          7.7544
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.    -1.851    -0.059    -0.014     1.852
+ HYBRID         0.088     0.000    -0.001     0.088
+ SUM           -1.762    -0.058    -0.015     1.763
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM               X         Y         Z
+
+     1         C                  0.8856    0.0225   -0.0012
+     2        Cl                  2.9287    0.0837    0.0098
+     3         H                  0.7782    1.1139    0.0067
+     4         H                  0.8326   -0.5220   -0.9532
+     5         H                  0.8231   -0.5380    0.9415
+     6        Br                 -1.4632   -0.0412   -0.0041
+
+
+          ATOMIC ORBITAL ELECTRON POPULATIONS
+
+   1.29585   0.62180   1.01772   1.01818   1.99539   1.61687   1.99914   1.99947
+   0.89309   0.89432   0.89374   1.99452   1.76013   1.99981   1.99998
+
+
+
+ TOTAL CPU TIME:             0.05 SECONDS
+
+ == MOPAC DONE ==
